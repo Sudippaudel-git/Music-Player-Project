@@ -1,0 +1,36 @@
+body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: skyblue;
+  color:red
+}
+.container{
+    text-align: center;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 4 px;
+
+}
+h1{
+    color:purple;
+}
+#audioplayer{
+    width: 100%;
+    margin: 20px;
+}
+#playlist li{
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border: 1 px solid yellow;
+    border-radius: 9px;
+    background-color: lawngreen;
+    transition:  background-color 0.3s ease;
+}
+#playlist li:hover{
+    background-color: antiquewhite;
+}
